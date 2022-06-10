@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Formularios</title>
+
+</head>
+
+
+<body>
+
+
+    <h2>Formularios HTML</h2>
+
+    <form>
+
+        <label for="nombre"> Escribe aquí tu nombre:</label><br>
+        <!--Label no es necesario, podría ponerse como frase normal pero mejor marcarlo para saber que debajo hay un formulario-->
+        <input type="text" value="" id="nombre" name="nombre">
+       
+        <p>
+            <label for="apellido"> Pon aquí tu apellido:</label><br>
+            <input type="text" value="" id="apellido" name="apellido" required> <!-- required informacion obligatoria-->
+        </p>
+
+        E-mail:
+        <br><input type="email" value="" placeholder="andreaprogramacionweb@gmail.com" size="50"> 
+        <!--placeholder te deja lo que pongas despues dentro del recuadro y se borra al escribir-->
+
+        <p>
+            <label for="Edad"> Escribe aquí tu edad:</label><br>
+            <input type="number" min="1" max="150"/> <!--para poner limitación de números-->
+        </p>
+
+        <p>
+            <label type="Tel">Teléfono:</label><br>
+            <input type="text" value="" id="tel" name="tel">
+        </p>
+
+
+        <p>
+            <br><input type="submit" value="Enviar" />
+            
+        </p>
+
+        
+
+    </form>
+
+</body>
+
+
+
+</html>

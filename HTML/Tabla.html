@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Tabla</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 4px;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <h1>Ejercicio tabla</h1>
+    <!--
+                Vamos a recrear una tabla de tres filas y cuatro columnas
+            -->
+
+    <table>
+        <tr style="text-align:center">
+            <!-- style centrar texto en las celdas de las tablas-->
+            <td>
+                Nombre
+            </td>
+
+            <td style="width: 70%">
+                Apellido
+            </td>
+
+            <td>
+                Teléfono
+            </td>
+            <td>
+                E-mail
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                Andrea
+            </td>
+
+            <td>
+                Picón
+            </td>
+
+            <td>
+                636763447
+            </td>
+
+            <td>
+                andreaprogramacionweb@gmail.com
+            </td>
+        </tr>
+
+        <tr>
+
+            <td rowspan="2">
+                Mario
+            </td>
+
+            <td>
+                García
+            </td>
+
+            <td>
+                1568451846
+            </td>
+
+            <td>
+                shjdfag@gjhod.com
+            </td>
+        </tr>
+
+        <!--
+            Combinar celdas en vertical rowspan en horizontal colspan combina con la celda de abajo, borrar las celdas que sobran
+        -->
+
+        <tr>
+
+            <td>
+
+                Andrea
+
+            </td>
+
+            <td>
+                Picón
+            </td>
+
+            <td>
+                Vázquez
+            </td>
+
+            <td>
+                andreaprogramacionweb
+            </td>
+
+    </table>
+
+</body>
+
+
+
+</html>

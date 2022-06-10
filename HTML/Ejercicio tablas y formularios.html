@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Ejercicio tablas y formularios</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 4px;
+        }
+
+        table {
+            width: 60%;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    
+
+    <table>
+        <tr>
+        
+            <td>
+                Nombre
+            </td>
+
+            <td>
+                <input type="text" value="" id="nombre" name="nombre">
+            </td>
+
+        </tr>
+
+        <tr>
+            
+            <td>
+                Apellido
+            </td>
+
+            <td>
+                <input type="text" value="" id="nombre" name="nombre">
+            </td>
+
+        </tr>
+
+        <tr>
+            <td rowspan="2">
+                <input type="submit" value="Enviar" />
+            </td>
+            <td>
+                <input type="email" value="" placeholder="andreaprogramacionweb@gmail.com" size="60">
+            </td>
+            
+        </tr>
+
+        <tr>
+            <td>
+                <input type="date">
+            </td>
+        </tr>
+    
+    </table>
+
+    <p>
+        <div class="topnav">
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+    </p>
+
+       
+</body>
+
+
+
+</html>

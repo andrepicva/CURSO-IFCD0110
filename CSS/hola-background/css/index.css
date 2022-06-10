@@ -1,0 +1,43 @@
+/* ponemos fondo a toda la pagina en el body */
+/*  barra numeros con asterisco para comentarios en .css */
+/* repeat para repetir la imagen cover para cubrir toda la pagina */
+
+/*body {
+    background-image: url(../img/get-g41724d673_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+#fondo {
+    background-image: url(../img/get-g41724d673_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+    /*vh =viewport height altura de la ventana porcentaje*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    z-index: 0;
+
+}
+
+
+.titulo {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: relative;
+    text-align: center;
+    margin-top: 50vh;
+}
+
+.titulo2 {
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
