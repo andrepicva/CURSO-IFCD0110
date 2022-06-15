@@ -1,0 +1,87 @@
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid brown;
+    padding: 40px;
+    text-align: center;
+    float: center;
+}
+
+
+/* 
+
+a {
+    
+    float: center;
+    width: 60%;
+    border: 3px solid brown;
+    padding: 40px;
+    text-align: center;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-right: 20px;
+    position: absolute;
+    top: 5%;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+ */
+
+#b{
+    float: left;
+    width: 60%;
+    border: 3px solid brown;
+    padding: 20px;
+    text-align: center;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-right: 20px;
+    position: absolute;
+    top: 5%;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#c{
+    float: center;
+    width: 60%;
+    border: 3px solid brown;
+    padding: 20px;
+    text-align: center;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-right: 20px;
+    position: absolute;
+    top: 5%;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#d{
+    float: right;
+    width: 60%;
+    border: 3px solid brown;
+    padding: 20px;
+    text-align: center;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-right: 20px;
+    position: absolute;
+    top: 5%;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
