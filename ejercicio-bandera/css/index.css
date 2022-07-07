@@ -54,11 +54,20 @@
 }
 
 .titulo5 {
-    position: center;
-    top: 40%;
-    width: 50%;
-    left: 25%;
+    
+    width: 100%;
+    padding-left: 15% !important;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 2px black;
+}
+.contacto{
+    position:absolute;
+    top:40%;
+    
+
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white
 }
