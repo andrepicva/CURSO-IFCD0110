@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main"></div>
+    <script>
+        //alert("Hola mundo");
+        //document.write('<h1>Hola mundo</h1>');
+        //console.log("Adiós mundo"); /*control shift i para poder ver opcion console*/
+
+        //let variable = false;
+        //let jsOutput = "<h1>JAVASCRIPT OUTPUT</h1>";
+        //if (!variable){
+        //        jsOutput = 4;
+        //};
+
+        const numero = 1;
+        let numero2 = 2;
+        let jsOutput = ''; //let declara variables
+        window.onload = function () { // con onload no carga la siguiente funcion hasta estar la anterior completada
+            jsSalida = numero + numero2;
+
+        let nombre = 'paco';
+        let html = "<div>nombre: ";
+            html+= nombre;
+            html+= "fin </div>";
+
+            document.getElementById("main").innerHTML = jsSalida; // en la pantalla ejecutada se ve la solucion de lo declarado en  jsSalida
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
