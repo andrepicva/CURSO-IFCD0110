@@ -28,3 +28,27 @@ document.getElementById('main').innerHTML = `
     alert('Tiene que ser un número');//No es un número, avisamos
     window.location.reload();//recargamos para que vuelva a salir el prompt
 }
+
+
+
+switch(nota){
+    case '0':
+    case '1':
+        nota = "Muy insuficiente"
+    break;
+    case '2':
+    case '3':
+    case '4':
+        nota = "Insuficiente"
+    case '5':
+        nota = "Suficiente"    
+    case '6':
+        nota = "Bien"
+    case '7':
+    case '8':
+        nota = "Notable"
+    case '9':
+    case '10':
+        nota = "Sobresaliente"   
+
+}
